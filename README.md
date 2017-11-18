@@ -1,4 +1,4 @@
-# Outline Standard
+# Outline Format
 
 The outline format is a text-only document format for simple
 outline-style lists.
@@ -59,17 +59,18 @@ My Section
   be left-aligned with the second line.
 ```
 
-> TODO
-
 ### Quoted strings
 
 > TODO
 
-### URIs
+### Brackets
 
 > TODO
+  ? remove brackets from the format
+    - they're an artifact from prose
+    ? what do they add to the outline format
 
-### Brackets
+### URIs
 
 > TODO
 
@@ -88,18 +89,18 @@ them stand out.
 The following rules define when these items are recognized as valid
 tags in an outline document:
 - A space must both precede and follow the tag and any other alphanumeric
-  character. For example, the `TODO` substring of `[TODO]` will be
+  character. For example, the `TODO` substring of `TODO,` will be
   recognized as a tag but in `TODOstuff` it will not.
 - Tags are not recognized when part of a section header.
 
 ### Comments
 
 Comments begin with double hashtags `##` and terminate at the end of
-the line.
+the line. Comment out text is ignored when converting to other formats.
 
 ### Examples
 
-Here are some examples if valid and invalid outline-formatted documents.
+Here are some examples of valid and invalid outline-formatted documents.
 
 > TODO
 

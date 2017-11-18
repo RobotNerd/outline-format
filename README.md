@@ -14,16 +14,16 @@ Outline documents are text-only with a file extension of `.outline`.
 The formatting rules in the following sections are broken down into
 two groups.
 
-Semantic: provide meaning
+Semantic
 - Sections
 - Unordered lists
 - Indenting
 - Multi-line list items
 - Comments
 
-Syntax highlighting: optional for use with syntax highlighting
+Syntax highlighting (optional)
 - Quoted Strings
-- URIs
+- URIs and email addresses
 - Tags: TODO, FIXME, etc.
 
 ### Sections
@@ -79,7 +79,7 @@ My Section
 ### Comments
 
 Comments begin with double hashtags `##` and terminate at the end of
-the line. Comment out text is ignored when converting to other formats.
+the line. Commented out text is ignored when converting to other formats.
 
 ### Quoted strings
 

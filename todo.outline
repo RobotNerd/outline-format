@@ -1,0 +1,8 @@
+Future Expansion
+- section headers that don't start with [A-Z]
+  - needed for languages outside of English
+  ? force a section header with a special character
+- ordered lists
+  - numbered, alphabetic
+  ? Roman numerals
+

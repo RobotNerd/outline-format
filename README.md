@@ -85,13 +85,6 @@ the line. Comment out text is ignored when converting to other formats.
 
 > TODO
 
-### Brackets
-
-> TODO
-  ? remove brackets from the format
-    - they're an artifact from prose
-    ? what do they add to the outline format
-
 ### URIs
 
 > TODO

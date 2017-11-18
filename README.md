@@ -5,9 +5,26 @@ outline-style lists.
 
 > TODO include links to plugins for syntax highlighting + extra functionality
 
-### File type
+## File type
 
 Outline documents are text-only with a file extension of `.outline`.
+
+## Formatting rules
+
+The formatting rules in the following sections are broken down into
+two groups.
+
+Semantic: provide meaning
+- Sections
+- Unordered lists
+- Indenting
+- Multi-line list items
+- Comments
+
+Syntax highlighting: optional for use with syntax highlighting
+- Quoted Strings
+- URIs
+- Tags: TODO, FIXME, etc.
 
 ### Sections
 
@@ -43,7 +60,7 @@ Recommended indentation is done with spaces with 2 spaces per tab stop.
 ### Multi-line list items
 
 List items can span multiple lines. Add a line break and indent the
-second (and subseqent) line by two space from the column with the
+second (and subsequent) line by two space from the column with the
 bullet point. If any of these lines begin with a bullet point, then
 they will be considered new child list items instead of a continuation
 of the previous item.
@@ -54,10 +71,15 @@ when rendering HTML).
 
 ```
 My Section
-- A list item can span multipe lines if you add a line break
+- A list item can span multiple lines if you add a line break
   and indent two additional spaces. All subsequent lines should
   be left-aligned with the second line.
 ```
+
+### Comments
+
+Comments begin with double hashtags `##` and terminate at the end of
+the line. Comment out text is ignored when converting to other formats.
 
 ### Quoted strings
 
@@ -77,7 +99,7 @@ My Section
 ### Tags: TODO, FIXME, etc.
 
 The items in the list below act as special metadata tags. Syntax
-highlighting of outline documents can highlight these items to make 
+highlighting of outline documents can highlight these items to make
 them stand out.
 
 - BUG
@@ -93,18 +115,7 @@ tags in an outline document:
   recognized as a tag but in `TODOstuff` it will not.
 - Tags are not recognized when part of a section header.
 
-### Comments
-
-Comments begin with double hashtags `##` and terminate at the end of
-the line. Comment out text is ignored when converting to other formats.
-
-### Examples
-
-Here are some examples of valid and invalid outline-formatted documents.
-
-> TODO
-
-### Best Practices
+## Best Practices
 
 - The first line of the file should be a section header, even
   if the file will only have one section.
@@ -131,20 +142,25 @@ Here are some examples of valid and invalid outline-formatted documents.
   level under the same section heading. Choose one and stick with it.
 - There should be no blank lines between any two consecutive list items.
 - Comments at the end of a line (placed after uncommented text)
-  should be preceeded by a single space. There should also be a single
+  should be preceded by a single space. There should also be a single
   space after the `##` that begins the comment.
 
   ```
   My list
   - list item
   - another list item ## with a comment at the end of the line
-  ## - don't add the preceeding space if commenting out the entire line
+  ## - don't add the preceding space if commenting out the entire line
   ```
 
 - Spaces should be used for indentation instead of tabs.
 - Indentation should be 2 spaces per tab stop.
 
-### Acknowledgements
+## Examples
+
+Here are some examples of valid and invalid outline-formatted documents.
+
+> TODO
+
+## Acknowledgements
 
 Inspired by https://fountain.io/.
-

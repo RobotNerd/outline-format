@@ -1,6 +1,7 @@
 # Outline Standard
 
-The outline format is a text-only document format for simple outline-style lists.
+The outline format is a text-only document format for simple
+outline-style lists.
 
 > TODO include links to plugins for syntax highlighting + extra functionality
 
@@ -32,8 +33,33 @@ the list item.
 
 ### Indenting
 
+List items at the same indentation level are considered to be in the
+same logical group. This is important when converting to other formats
+where bullet points are represented by different icons depending on
+their indentation level.
+
+Recommended indentation is done with spaces with 2 spaces per tab stop.
+
+### Multi-line list items
+
+List items can span multiple lines. Add a line break and indent the
+second (and subseqent) line by two space from the column with the
+bullet point. If any of these lines begin with a bullet point, then
+they will be considered new child list items instead of a continuation
+of the previous item.
+
+When converting to other formats that support line-wrapping, the
+line breaks and spacing will be converted to a single space (like
+when rendering HTML).
+
+```
+My Section
+- A list item can span multipe lines if you add a line break
+  and indent two additional spaces. All subsequent lines should
+  be left-aligned with the second line.
+```
+
 > TODO
-  - multi-line list items
 
 ### Quoted strings
 
@@ -68,7 +94,7 @@ tags in an outline document:
 
 ### Comments
 
-Comments begin with double hashtags (##) and terminate at the end of
+Comments begin with double hashtags `##` and terminate at the end of
 the line.
 
 ### Examples
@@ -105,7 +131,7 @@ Here are some examples if valid and invalid outline-formatted documents.
 - There should be no blank lines between any two consecutive list items.
 - Comments at the end of a line (placed after uncommented text)
   should be preceeded by a single space. There should also be a single
-  space after the "##" that begins the comment.
+  space after the `##` that begins the comment.
 
   ```
   My list
@@ -115,5 +141,9 @@ Here are some examples if valid and invalid outline-formatted documents.
   ```
 
 - Spaces should be used for indentation instead of tabs.
-- Indentation should be 2 spaces.
+- Indentation should be 2 spaces per tab stop.
+
+### Acknowledgements
+
+Inspired by https://fountain.io/.
 

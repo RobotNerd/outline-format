@@ -6,4 +6,9 @@ Future Expansion
   - numbered, alphabetic
   ? Roman numerals
 - add a test file in an outline format
+? other formatting
+  - bold
+  - italic
+? force recognition of a URI
+  - example: text in side [] is highlighted as a URI
 

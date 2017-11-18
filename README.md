@@ -85,9 +85,12 @@ the line. Comment out text is ignored when converting to other formats.
 
 > TODO
 
-### URIs
+### URIs and email addresses
 
-> TODO
+URIs and email addresses may be highlighted to make them visually distinct
+from regular text. Formatting guidelines can be found here:
+- Email: [RFC 3696](https://tools.ietf.org/html/rfc3696)
+- URI: [RFC 3986](https://tools.ietf.org/html/rfc3986)
 
 ### Tags: TODO, FIXME, etc.
 
@@ -147,6 +150,9 @@ tags in an outline document:
 
 - Spaces should be used for indentation instead of tabs.
 - Indentation should be 2 spaces per tab stop.
+- The recommended maximum line length is 80 characters.
+  This does not apply to long text strings that cannot be split up
+  (e.g. URLs).
 
 ## Examples
 

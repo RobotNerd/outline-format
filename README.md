@@ -83,7 +83,10 @@ the line. Commented out text is ignored when converting to other formats.
 
 ### Quoted strings
 
-> TODO
+Portions of a list item may be placed inside double quotes `"` so that
+syntax highlighting can render that substring as visually distinct from
+regular text. Quoted strings do not line wrap. The quoted substring
+terminates at the next double quote character or at a newline character.
 
 ### URIs and email addresses
 

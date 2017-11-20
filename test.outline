@@ -9,7 +9,21 @@ Bullet points
 x An item that is no longer valid
 
 Indenting
-- TODO
+- one list item
+- another list item in the same logic group
+  - a child list item
+  - a second child list item
+    - a grandchild item
+  - a third child item
+    - a single item can be wrapped across multiple lines, generally
+      when it is too long for the recommended 80-character line limit
+- back to the top level
+  * the alternate regular bullet character can be used
+  * but items in this level should use consistent bullet point characters
+  ? questions can occur at any level
+  ! as can important items
+  x the same goes for invalid/deprecated items
+  * the above unique characters replace the normal bullet point character
 
 Multi-line items
 - question

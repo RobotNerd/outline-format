@@ -110,8 +110,8 @@ them stand out.
 The following rules define when these items are recognized as valid
 tags in an outline document:
 - A space must both precede and follow the tag and any other alphanumeric
-  character. For example, the `TODO` substring of `TODO,` will be
-  recognized as a tag but in `TODOstuff` it will not.
+  character or underscore. For example, the `TODO` substring of `TODO,`
+  will be recognized as a tag but in `TODO_stuff` it will not.
 - Tags are not recognized when part of a section header.
 
 ## Best Practices

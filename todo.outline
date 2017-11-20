@@ -6,9 +6,17 @@ Future Expansion
   - numbered, alphabetic
   ? Roman numerals
 - add a test file in an outline format
+  ! need a valid syntax-highlighted version to compare against
+    ? maybe image(s) taken from an editor with a valid plugin
 ? other formatting
   - bold
   - italic
-? force recognition of a URI
+? special syntax to force recognition of a URI
   - example: text in side [] is highlighted as a URI
+- multiline strings
+  - ensure that syntax highlighting works across multiple lines
+  - account for commented and partially commented lines
+  - multi-line quoted strings
+    ? concatenate quoted multi-line strings when converting to other format
+? unique highlighting for numerical values
 

@@ -11,8 +11,7 @@ Outline documents are text-only with a file extension of `.outline`.
 
 ## Formatting rules
 
-The formatting rules in the following sections are broken down into
-two groups.
+The formatting rules in this document are broken down into two groups:
 
 Semantic
 - Sections
@@ -55,12 +54,13 @@ same logical group. This is important when converting to other formats
 where bullet points are represented by different icons depending on
 their indentation level.
 
-Recommended indentation is done with spaces with 2 spaces per tab stop.
+The recommendation is to use spaces instead of tabs and to use
+2 spaces per indentation level.
 
 ### Multi-line list items
 
 List items can span multiple lines. Add a line break and indent the
-second (and subsequent) line by two space from the column with the
+second (and subsequent) line by two spaces from the column with the
 bullet point. If any of these lines begin with a bullet point, then
 they will be considered new child list items instead of a continuation
 of the previous item.
@@ -86,7 +86,7 @@ the line. Commented out text is ignored when converting to other formats.
 Portions of a list item may be placed inside double quotes `"` so that
 syntax highlighting can render that substring as visually distinct from
 regular text. Quoted strings terminate either at an ending double quote
-character `"` or at a blank line. When converting multi-line quoted strings
+character or at a blank line. When converting multi-line quoted strings
 to other formats, all contiguous whitespace should be collapsed into a single
 space (like rendering HTML).
 

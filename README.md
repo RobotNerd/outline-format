@@ -3,7 +3,8 @@
 The outline format is a text-only document format for simple
 outline-style lists.
 
-> TODO include links to plugins for syntax highlighting + extra functionality
+These editor plugins provide support for outline documents:
+- vim: https://github.com/RobotNerd/outline-vim
 
 ## File type
 

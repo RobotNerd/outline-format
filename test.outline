@@ -1,0 +1,190 @@
+Test file for outline formatting
+- A test file for "*.outline" documents
+
+Bullet points
+- A regular bullet point
+  * An alternative regular bullet point
+? An item that signifies a question or unresolved issue
+! An important, critical, or problematic issue
+x An item that is no longer valid
+
+Indenting
+- TODO
+
+Multi-line items
+- question
+  ? multi-line question
+    followed by
+  - a normal list item
+  ? multi-line question
+    followed by
+  * a normal list item
+  ? multi-line question
+    followed by
+  ! an important item
+  ? multi-line question
+    followed by
+  x an item that is no longer valid
+  ? multi-line question
+    followed by
+  ? question item
+- important
+  ! multi-line important
+    followed by
+  - a normal list item
+  ! multi-line important
+    followed by
+  * a normal list item
+  ! multi-line important
+    followed by
+  ? question item
+  ! multi-line important
+    followed by
+  ! an important item
+  ! multi-line important
+    followed by
+  x an item that is no longer valid
+- invalid
+  x multi-line invalid item
+    followed by
+  - a normal list item
+  x multi-line invalid item
+    followed by
+  * a normal list item
+  x multi-line invalid item
+    followed by
+  ? question item
+  x multi-line invalid item
+    followed by
+  ! an important item
+  x multi-line invalid item
+    followed by
+  x an item that is no longer valid
+- normal: "-"
+  - multi-line normal item
+    followed by
+  - a normal list item
+  - multi-line normal item
+    followed by
+  * a normal list item
+  - multi-line normal item
+    followed by
+  ? question item
+  - multi-line normal item
+    followed by
+  ! an important item
+  - multi-line normal item
+    followed by
+  x an item that is no longer valid
+- normal: "*"
+  * multi-line normal item
+    followed by
+  - a normal list item
+  * multi-line normal item
+    followed by
+  * a normal list item
+  * multi-line normal item
+    followed by
+  ? question item
+  * multi-line normal item
+    followed by
+  ! an important item
+  * multi-line normal item
+    followed by
+  x an item that is no longer valid
+- multi-line normal item on
+  more than
+  two lines
+* multi-line normal item on
+  more than
+  two lines
+? multi-line question on
+  more than
+  two lines
+! multi-line important on
+  more than
+  two lines
+x multi-line invalid on
+  more than
+  two lines
+
+Comments
+- a comment at the ## end of the line
+## - the entire line may be commented out
+## Section heading lines can be commented out as well
+- a line between commented lines
+##- a comment without a separating space works but is not recommended
+
+Quoted strings
+- a "substring of" a list item
+- "an entire list item"
+- "an implicit ending quote prevents at the end of the line
+  multi-line quoted substrings
+
+URIs
+- source: https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+- https://example.org/absolute/URI/with/absolute/path/to/resource.txt
+- https://example.org/absolute/URI/with/absolute/path/to/resource
+- ftp://example.org/resource.txt
+- https://example.org/absolute/URI/with/absolute/path/to/resource.txt
+- //example.org/scheme-relative/URI/with/absolute/path/to/resource.txt
+- //example.org/scheme-relative/URI/with/absolute/path/to/resource
+- /relative/URI/with/absolute/path/to/resource.txt
+- relative/path/to/resource.txt
+- ../../../resource.txt
+- ./resource.txt#frag01
+
+URN
+- arn:aws:iam::123456789012:user/David
+- arn:aws:rds:eu-west-1:123456789012:db:mysql-db
+- arn:aws:s3:::my_corporate_bucket/exampleobject.png
+- urn:ISSN:1535-3613
+
+Email Addresses
+- source: https://en.wikipedia.org/wiki/Email_address
+  * some of the strange edge cases are excluded
+- prettyandsimple@example.com
+- very.common@example.com
+- disposable.style.email.with+symbol@example.com
+- other.email-with-dash@example.com
+- fully-qualified-domain@example.com
+- user.name+tag+sorting@example.com
+- x@example.com
+- example-indeed@strange-example.com
+- admin@mailserver1
+- example@s.solutions
+- user@localserver
+
+Hashtag-like
+- #myhashtag
+- #another-hash-tag
+- @user
+
+Tags
+- Valid tags
+  - BUG
+  - DEPRECATED
+  - FIXME
+  - IMPORTANT
+  - TODO
+  - TODO:
+  - FIXME?
+  - IMPORTANT,
+  - a-BUG
+  - BUG-a
+  - IMPORTANT>thing
+  - NOT:IMPORTANT
+  ? a TODO embedded in a question
+  ! a FIXME embedded in an exclamation
+  x a DEPRECATED embedded in an invalid item
+  ## - a TODO embedded in a comment
+- Invalid tags (the below items should not be recognized as tags)
+  - aBUG
+  - BUGa
+  - ABUG
+  - BUGA
+  - a_BUG
+  - BUG_a
+  - TODOthing
+  - please_FIXME
+

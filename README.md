@@ -65,9 +65,9 @@ bullet point. If any of these lines begin with a bullet point, then
 they will be considered new child list items instead of a continuation
 of the previous item.
 
-When converting to other formats that support line-wrapping, the
-line breaks and spacing will be converted to a single space (like
-when rendering HTML).
+When converting to other formats that support line-wrapping,
+all contiguous whitespace should be converted to a single space (like
+rendering HTML).
 
 ```
 My Section
@@ -85,8 +85,10 @@ the line. Commented out text is ignored when converting to other formats.
 
 Portions of a list item may be placed inside double quotes `"` so that
 syntax highlighting can render that substring as visually distinct from
-regular text. Quoted strings do not line wrap. The quoted substring
-terminates at the next double quote character or at a newline character.
+regular text. Quoted strings terminate either at an ending double quote
+character `"` or at a blank line. When converting multi-line quoted strings
+to other formats, all contiguous whitespace should be collapsed into a single
+space (like rendering HTML).
 
 ### URIs and email addresses
 
@@ -156,6 +158,8 @@ tags in an outline document:
 - The recommended maximum line length is 80 characters.
   This does not apply to long text strings that cannot be split up
   (e.g. URLs).
+- Quoted strings that span multiple lines should be left-aligned
+  following the same rules as standard multi-line indenting.
 
 ## Examples
 

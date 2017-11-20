@@ -118,8 +118,12 @@ Comments
 Quoted strings
 - a "substring of" a list item
 - "an entire list item"
-- "an implicit ending quote prevents at the end of the line
-  multi-line quoted substrings
+- "the beginning" portion of a list item
+- "an quoted string can span
+  multiple lines until reaching a closing quote"
+- "a multi-line string
+  that doesn't have a closing quote
+  will implicitly end prior to an empty line
 
 URIs
 - source: https://en.wikipedia.org/wiki/Uniform_Resource_Identifier

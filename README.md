@@ -79,7 +79,7 @@ My Section
 
 ### Comments
 
-Comments begin with double hashtags `##` and terminate at the end of
+Comments begin with double hash `##` and terminate at the end of
 the line. Commented out text is ignored when converting to other formats.
 
 ### Quoted strings

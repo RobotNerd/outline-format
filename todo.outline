@@ -1,22 +1,33 @@
 Future Expansion
 - section headers that don't start with [A-Z]
   - needed for languages outside of English
-  ? force a section header with a special character
+  - options
+    ? force a section header with a special character
+    ? always becomes header if left-justified staring w/ non-bullet point char
 - ordered lists
   - numbered, alphabetic
   ? Roman numerals
-- add a test file in an outline format
-  ! need a valid syntax-highlighted version to compare against
-    ? maybe image(s) taken from an editor with a valid plugin
+? test file: maybe image(s) taken from an editor with a valid plugin
 ? other formatting
   - bold
   - italic
 ? special syntax to force recognition of a URI
-  - example: text in side [] is highlighted as a URI
-- multiline strings
+  - example: text inside {} is highlighted as a URI
+- multi-line strings
   - ensure that syntax highlighting works across multiple lines
   - account for commented and partially commented lines
   - multi-line quoted strings
     ? concatenate quoted multi-line strings when converting to other format
-? unique highlighting for numerical values
+? unique highlighting for numeric values
+- add brackets back to standard
+  - act as metadata for a list
+  - grouped with other list items, but not necessarily part of the list
+  - example
+    - [this acts like a note about the items in the list below]
+    - regular list item
+    - another regular list item
+? use backtick characters for code blocks (like markdown)
+  - include per-language syntax highlighting of embedded code
+- projects to investigate that may be similar
+  - http://peterodding.com/code/vim/notes/
 

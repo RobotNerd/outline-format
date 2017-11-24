@@ -108,6 +108,7 @@ them stand out.
 - DEPRECATED
 - FIXME
 - IMPORTANT
+- NOTE
 - TODO
 
 The following rules define when these items are recognized as valid

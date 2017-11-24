@@ -151,7 +151,6 @@ URIs
 - //example.org/scheme-relative/URI/with/absolute/path/to/resource.txt
 - //example.org/scheme-relative/URI/with/absolute/path/to/resource
 - /relative/URI/with/absolute/path/to/resource.txt
-- relative/path/to/resource.txt
 - ../../../resource.txt
 - ./resource.txt#frag01
 
@@ -160,6 +159,14 @@ URN
 - arn:aws:rds:eu-west-1:123456789012:db:mysql-db
 - arn:aws:s3:::my_corporate_bucket/exampleobject.png
 - urn:ISSN:1535-3613
+
+Exceptions to URI highlighting
+- these shorthand-style items should not be recognized as URIs
+  - w/o
+  - a/b
+  - either/or
+  - and/or
+  - general/set/of/words
 
 Email Addresses
 - source: https://en.wikipedia.org/wiki/Email_address

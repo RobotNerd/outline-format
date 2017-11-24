@@ -38,7 +38,10 @@ practice to have at least one section header per file.
 ### Unordered lists
 
 Unordered list items begin with a single character representing a
-bullet point. The character chosen for a bullet point conveys meaning:
+bullet point. The characters listed below are recognized as a bullet
+point if they are the first non-whitespace charater on the line.
+
+The character chosen for a bullet point conveys meaning:
 - `-`: A normal list item. The default case.
 - `*`: Alternative to `-`.
 - `?`: A question that needs to be resolved.

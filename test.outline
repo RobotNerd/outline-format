@@ -7,6 +7,9 @@ Bullet points
 ? An item that signifies a question or unresolved issue
 ! An important, critical, or problematic issue
 x An item that is no longer valid
+- Don't highlight things after this sentence! See, not highlighted.
+- Don't highlight things after this sentence? See, not highlighted.
+- After the "x" in syntax don't highlight anything.
 
 Indenting
 - one list item

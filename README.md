@@ -29,8 +29,8 @@ Syntax highlighting (optional)
 ### Sections
 
 A section header must meet the following criteria:
-- No leading spaces.
-- Begin with a capitalized alphabetic character, i.e. [A-Z].
+- There must not be any leading whitespace before the section header.
+- The first character must be alphabetical.
 
 A section header is not required, but it is considered a best
 practice to have at least one section header per file.

@@ -168,9 +168,9 @@ tags in an outline document:
 
 ## Examples
 
-Here are some examples of valid and invalid outline-formatted documents.
-
-> TODO
+The `example/` directory contains example outline files. The
+`example/test.outline` is meant to be used to test syntax highlighting
+editor plugins. It contains a lot of edge cases.
 
 ## Acknowledgements
 

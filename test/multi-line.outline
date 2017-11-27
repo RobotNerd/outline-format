@@ -94,3 +94,47 @@ Multi-line items
 x multi-line invalid on
   more than
   two lines
+
+Multi-line with comments
+- Comments at the end of the line ## comments here
+  are ignored for the item
+* Comments at the end of the line ## comments here
+  are ignored for the item
+? Comments at the end of the line ## comments here
+  are ignored for the item
+! Comments at the end of the line ## comments here
+  are ignored for the item
+x Comments at the end of the line ## comments here
+  are ignored for the item
+
+Multi-line with fully commented out lines
+- This multi-line item
+  ## this comment will be ignored
+  will include this as the second line of the item.
+* This multi-line item
+  ## this comment will be ignored
+  will include this as the second line of the item.
+? This multi-line item
+  ## this comment will be ignored
+  will include this as the second line of the item.
+! This multi-line item
+  ## this comment will be ignored
+  will include this as the second line of the item.
+x This multi-line item
+  ## this comment will be ignored
+  will include this as the second line of the item.
+- This multi-line item
+## ignored lines don't have to be indented
+  will include this as the second line of the item.
+* This multi-line item
+## ignored lines don't have to be indented
+  will include this as the second line of the item.
+? This multi-line item
+## ignored lines don't have to be indented
+  will include this as the second line of the item.
+! This multi-line item
+## ignored lines don't have to be indented
+  will include this as the second line of the item.
+x This multi-line item
+## ignored lines don't have to be indented
+  will include this as the second line of the item.

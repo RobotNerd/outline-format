@@ -64,6 +64,11 @@ their indentation level.
 The recommendation is to use spaces instead of tabs and to use
 2 spaces per indentation level.
 
+### Comments
+
+Comments begin with double hash `##` and terminate at the end of
+the line. Commented out text is ignored when converting to other formats.
+
 ### Multi-line list items
 
 List items can span multiple lines. Add a line break and indent the
@@ -72,21 +77,25 @@ bullet point. If any of these lines begin with a bullet point, then
 they will be considered new child list items instead of a continuation
 of the previous item.
 
-When converting to other formats that support line-wrapping,
-all contiguous whitespace should be converted to a single space (like
-rendering HTML).
+Comments can be embedded in a multi-line list item. An entire line can be
+commented out or just the end portion of the line. See the code block at the
+end of this section for an example.
+
+When converting to other formats that support line-wrapping:
+- All contiguous whitespace should be converted to a single space (like rendering HTML).
+- Comments are ignored.
 
 ```
 My Section
 - A list item can span multiple lines if you add a line break
   and indent two additional spaces. All subsequent lines should
   be left-aligned with the second line.
+- This multi-line item can contain ## an embedded comment
+  comments that will be ignored when converting to other formats.
+- This multi-line item
+## this entire line is commented out
+  will continue onto this line and ignore fully commented out lines
 ```
-
-### Comments
-
-Comments begin with double hash `##` and terminate at the end of
-the line. Commented out text is ignored when converting to other formats.
 
 ### Quoted strings
 

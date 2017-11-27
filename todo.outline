@@ -1,9 +1,4 @@
 Future Expansion
-- section headers that don't start with [A-Z]
-  - needed for languages outside of English
-  - options
-    ? force a section header with a special character
-    ? always becomes header if left-justified staring w/ non-bullet point char
 - ordered lists
   - numbered, alphabetic
   ? Roman numerals

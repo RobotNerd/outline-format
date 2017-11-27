@@ -1,0 +1,6 @@
+Comments
+- a comment at the ## end of the line
+## - the entire line may be commented out
+## Section heading lines can be commented out as well
+- a line between commented lines
+##- a comment without a separating space works but is not recommended

@@ -1,0 +1,7 @@
+Exceptions to URI highlighting
+- these shorthand-style items should not be recognized as URIs
+  - w/o
+  - a/b
+  - either/or
+  - and/or
+  - general/set/of/words

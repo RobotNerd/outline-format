@@ -1,0 +1,96 @@
+Multi-line items
+- question
+  ? multi-line question
+    followed by
+  - a normal list item
+  ? multi-line question
+    followed by
+  * a normal list item
+  ? multi-line question
+    followed by
+  ! an important item
+  ? multi-line question
+    followed by
+  x an item that is no longer valid
+  ? multi-line question
+    followed by
+  ? question item
+- important
+  ! multi-line important
+    followed by
+  - a normal list item
+  ! multi-line important
+    followed by
+  * a normal list item
+  ! multi-line important
+    followed by
+  ? question item
+  ! multi-line important
+    followed by
+  ! an important item
+  ! multi-line important
+    followed by
+  x an item that is no longer valid
+- invalid
+  x multi-line invalid item
+    followed by
+  - a normal list item
+  x multi-line invalid item
+    followed by
+  * a normal list item
+  x multi-line invalid item
+    followed by
+  ? question item
+  x multi-line invalid item
+    followed by
+  ! an important item
+  x multi-line invalid item
+    followed by
+  x an item that is no longer valid
+- normal: "-"
+  - multi-line normal item
+    followed by
+  - a normal list item
+  - multi-line normal item
+    followed by
+  * a normal list item
+  - multi-line normal item
+    followed by
+  ? question item
+  - multi-line normal item
+    followed by
+  ! an important item
+  - multi-line normal item
+    followed by
+  x an item that is no longer valid
+- normal: "*"
+  * multi-line normal item
+    followed by
+  - a normal list item
+  * multi-line normal item
+    followed by
+  * a normal list item
+  * multi-line normal item
+    followed by
+  ? question item
+  * multi-line normal item
+    followed by
+  ! an important item
+  * multi-line normal item
+    followed by
+  x an item that is no longer valid
+- multi-line normal item on
+  more than
+  two lines
+* multi-line normal item on
+  more than
+  two lines
+? multi-line question on
+  more than
+  two lines
+! multi-line important on
+  more than
+  two lines
+x multi-line invalid on
+  more than
+  two lines

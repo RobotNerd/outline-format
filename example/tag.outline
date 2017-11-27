@@ -1,0 +1,27 @@
+Tags
+- Valid tags
+  - BUG
+  - DEPRECATED
+  - FIXME
+  - IMPORTANT
+  - TODO
+  - TODO:
+  - FIXME?
+  - IMPORTANT,
+  - a-BUG
+  - BUG-a
+  - IMPORTANT>thing
+  - NOT:IMPORTANT
+  ? a TODO embedded in a question
+  ! a FIXME embedded in an exclamation
+  x a DEPRECATED embedded in an invalid item
+  ## - a TODO embedded in a comment
+- Invalid tags (the below items should not be recognized as tags)
+  - aBUG
+  - BUGa
+  - ABUG
+  - BUGA
+  - a_BUG
+  - BUG_a
+  - TODOthing
+  - please_FIXME

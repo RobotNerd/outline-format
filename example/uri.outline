@@ -1,0 +1,17 @@
+URIs
+- valid: these items should be recognized as URIs
+  - source: https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+  - https://example.org/absolute/URI/with/absolute/path/to/resource.txt
+  - https://example.org/absolute/URI/with/absolute/path/to/resource
+  - ftp://example.org/resource.txt
+  - https://example.org/absolute/URI/with/absolute/path/to/resource.txt
+  - //example.org/scheme-relative/URI/with/absolute/path/to/resource.txt
+  - //example.org/scheme-relative/URI/with/absolute/path/to/resource
+  - /relative/URI/with/absolute/path/to/resource.txt
+  - ../../../resource.txt
+  - ./resource.txt#frag01
+  - (http://www.example.com)
+  - {http://www.example.com}
+- invalid: the items below should not be recognized as URIs
+  - _http://www.example.com
+  - source:http://www.example.com

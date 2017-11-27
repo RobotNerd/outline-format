@@ -169,11 +169,11 @@ tags in an outline document:
 - Quoted strings that span multiple lines should be left-aligned
   following the same rules as standard multi-line indenting.
 
-## Examples
+## Examples and testing
 
-The `example/` directory contains example outline files. The
-`example/test.outline` is meant to be used to test syntax highlighting
-editor plugins. It contains a lot of edge cases.
+The `test/` directory contains example outline files. Each file
+contains examples for a specific formatting type. The focus is to provide
+examples of edge cases that could cause problems for syntax highlighters.
 
 ## Acknowledgements
 

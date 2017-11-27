@@ -143,22 +143,30 @@ Quoted strings
   will implicitly end prior to an empty line
 
 URIs
-- source: https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
-- https://example.org/absolute/URI/with/absolute/path/to/resource.txt
-- https://example.org/absolute/URI/with/absolute/path/to/resource
-- ftp://example.org/resource.txt
-- https://example.org/absolute/URI/with/absolute/path/to/resource.txt
-- //example.org/scheme-relative/URI/with/absolute/path/to/resource.txt
-- //example.org/scheme-relative/URI/with/absolute/path/to/resource
-- /relative/URI/with/absolute/path/to/resource.txt
-- ../../../resource.txt
-- ./resource.txt#frag01
+- valid: these items should be recognized as URIs
+  - source: https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+  - https://example.org/absolute/URI/with/absolute/path/to/resource.txt
+  - https://example.org/absolute/URI/with/absolute/path/to/resource
+  - ftp://example.org/resource.txt
+  - https://example.org/absolute/URI/with/absolute/path/to/resource.txt
+  - //example.org/scheme-relative/URI/with/absolute/path/to/resource.txt
+  - //example.org/scheme-relative/URI/with/absolute/path/to/resource
+  - /relative/URI/with/absolute/path/to/resource.txt
+  - ../../../resource.txt
+  - ./resource.txt#frag01
+  - (http://www.example.com)
+  - {http://www.example.com}
+- invalid: the items below should not be recognized as URIs
+  - _http://www.example.com
+  - source:http://www.example.com
 
 URN
 - arn:aws:iam::123456789012:user/David
 - arn:aws:rds:eu-west-1:123456789012:db:mysql-db
 - arn:aws:s3:::my_corporate_bucket/exampleobject.png
 - urn:ISSN:1535-3613
+- (urn:ISSN:1535-3613)
+- {urn:ISSN:1535-3613}
 
 Exceptions to URI highlighting
 - these shorthand-style items should not be recognized as URIs
@@ -182,11 +190,17 @@ Email Addresses
 - admin@mailserver1
 - example@s.solutions
 - user@localserver
+- (user@example.com)
+- {user@example.com}
 
 Hashtag-like
 - #myhashtag
 - #another-hash-tag
 - @user
+- (@user)
+- {@user}
+- (#myhashtag)
+- {#myhashtag}
 
 Tags
 - Valid tags

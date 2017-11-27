@@ -30,4 +30,6 @@ Future Expansion
   - include per-language syntax highlighting of embedded code
 - projects to investigate that may be similar
   - http://peterodding.com/code/vim/notes/
+- additional edge cases for test file
+  - URIs, emails, hashtag-like left justified (should now be titles)
 

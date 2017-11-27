@@ -1,10 +1,12 @@
 # Outline Format
 
-The outline format is a text-only document format for simple
-outline-style lists.
+The outline format is a text-only document format for simple lists.
 
 These editor plugins provide support for outline documents:
 - vim: https://github.com/RobotNerd/outline-vim
+
+If your favorite editor does not have a plugin that supports .outline,
+please write one and it will be linked here!
 
 ## File type
 
@@ -18,8 +20,8 @@ Semantic
 - Sections
 - Unordered lists
 - Indenting
-- Multi-line list items
 - Comments
+- Multi-line list items
 
 Syntax highlighting (optional)
 - Quoted Strings
@@ -69,6 +71,8 @@ The recommendation is to use spaces instead of tabs and to use
 Comments begin with double hash `##` and terminate at the end of
 the line. Commented out text is ignored when converting to other formats.
 
+Comments cannot be embedded in quoted strings (including multi-line quotes).
+
 ### Multi-line list items
 
 List items can span multiple lines. Add a line break and indent the
@@ -82,7 +86,8 @@ commented out or just the end portion of the line. See the code block at the
 end of this section for an example.
 
 When converting to other formats that support line-wrapping:
-- All contiguous whitespace should be converted to a single space (like rendering HTML).
+- All contiguous whitespace should be converted to a single space
+  (like rendering HTML).
 - Comments are ignored.
 
 ```
@@ -131,7 +136,8 @@ tags in an outline document:
 - A space must both precede and follow the tag and any other alphanumeric
   character or underscore. For example, the `TODO` substring of `TODO,`
   will be recognized as a tag but in `TODO_stuff` it will not.
-- Tags are not recognized when part of a section header.
+- Tags are not recognized when part of a section header or inside a
+  quoted string.
 
 ## Best Practices
 
@@ -173,8 +179,7 @@ tags in an outline document:
 - Spaces should be used for indentation instead of tabs.
 - Indentation should be 2 spaces per tab stop.
 - The recommended maximum line length is 80 characters.
-  This does not apply to long text strings that cannot be split up
-  (e.g. URLs).
+  This does not apply to long text strings that cannot be split up (e.g. URLs).
 - Quoted strings that span multiple lines should be left-aligned
   following the same rules as standard multi-line indenting.
 

@@ -25,3 +25,7 @@ Tags
   - BUG_a
   - TODOthing
   - please_FIXME
+  - not in a URL: http://www.TODO.com
+  - not in an email: FIXME@example.com
+  - not in a file-like path: ./path/TODO/files/
+  - not in a hashtag: #TODO-things

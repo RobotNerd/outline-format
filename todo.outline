@@ -2,18 +2,11 @@ Future Expansion
 - ordered lists
   - numbered, alphabetic
   ? Roman numerals
-? test file: maybe image(s) taken from an editor with a valid plugin
 ? other formatting
   - bold
   - italic
 ? special syntax to force recognition of a URI
   - example: text inside {} is highlighted as a URI
-- multi-line strings
-  - ensure that syntax highlighting works across multiple lines
-  - account for commented and partially commented lines
-  - multi-line quoted strings
-    ? concatenate quoted multi-line strings when converting to other format
-? unique highlighting for numeric values
 - add brackets back to standard
   - act as metadata for a list
   - grouped with other list items, but not necessarily part of the list
@@ -25,6 +18,4 @@ Future Expansion
   - include per-language syntax highlighting of embedded code
 - projects to investigate that may be similar
   - http://peterodding.com/code/vim/notes/
-- additional edge cases for test file
-  - URIs, emails, hashtag-like left justified (should now be titles)
 

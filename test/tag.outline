@@ -16,6 +16,7 @@ Tags
   ! a FIXME embedded in an exclamation
   x a DEPRECATED embedded in an invalid item
   ## - a TODO embedded in a comment
+  - an embedded [TODO in a comment]
 - Invalid tags (the below items should not be recognized as tags)
   - aBUG
   - BUGa

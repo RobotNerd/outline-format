@@ -1,0 +1,9 @@
+Brackets
+- a bracket at the [end of the line]
+[ the entire line may be in a bracket ]
+- a line between
+[
+  A bracketed section can span
+  multiple lines.
+]
+- more info

@@ -73,6 +73,13 @@ the line. Commented out text is ignored when converting to other formats.
 
 Comments cannot be embedded in quoted strings (including multi-line quotes).
 
+### Brackets
+
+Special notes are placed inside a pair from brackets `[]`.
+
+- Begin with a `[`.
+- End with a `]` or the end of the file, whichever comes first.
+
 ### Multi-line list items
 
 List items can span multiple lines. Add a line break and indent the
@@ -175,7 +182,25 @@ tags in an outline document:
   - another list item ## with a comment at the end of the line
   ## - don't add the preceding space if commenting out the entire line
   ```
+- Using comments:
+  - Highlight parts of the outline that have become irrelevant. This may
+    be useful a useful alternative to deleting content.
+  - Add text to the document that may not fit the outline specification.
+- Use brackets to add a note to a bullet point that will stand out from
+  the surrounding text thanks to syntax highlight.
 
+  ```
+  My list
+  - list item [TODO research and update this item]
+  - another list item
+  ```
+
+- Try to keep bracketed blocks limited to a single line.
+- Comments vs. brackets:
+  - Use comments for temporary removal ("hiding") of parts of the document.
+  - Use brackets to include special notes that will visually stand out from
+    the surrounding text.
+  - Brackets add information. Comments remove information.
 - Spaces should be used for indentation instead of tabs.
 - Indentation should be 2 spaces per tab stop.
 - The recommended maximum line length is 80 characters.

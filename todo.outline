@@ -7,15 +7,7 @@ Future Expansion
   - italic
 ? special syntax to force recognition of a URI
   - example: text inside {} is highlighted as a URI
-- add brackets back to standard
-  - act as metadata for a list
-  - grouped with other list items, but not necessarily part of the list
-  - example
-    - [this acts like a note about the items in the list below]
-    - regular list item
-    - another regular list item
 ? use backtick characters for code blocks (like markdown)
   - include per-language syntax highlighting of embedded code
 - projects to investigate that may be similar
   - http://peterodding.com/code/vim/notes/
-
